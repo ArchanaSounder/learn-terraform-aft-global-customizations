@@ -1,0 +1,14 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "Describe the policy statement",
+        "Effect": "Allow",
+        "Principal": {
+          "AWS": "arn:aws:iam::822875349860:user/CK-Admin"
+        },
+        "Action": "kms:*",
+        "Resource": "*"
+      }
+    ]
+  }
